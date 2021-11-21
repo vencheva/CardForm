@@ -13,6 +13,26 @@
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+
+       <form action="/page-for-form-handling" method="POST">
+         
+          <input type="submit" value="Send Request" class="input"/>
+
+          <input type="reset" value="Cancel" class="input"/>
+         
+         <label for="ccname">Card Holder:</label>
+          <input type="text" name="ccname" id="ccname" class="input"/>
+
+         <label for="cardnumber">Card Number:</label>
+           <input type="number" name="cardnumber" id="cardnumber" class="input"/>
+
+         <label for="cvc">CVC Code:</label>
+           <input type="number" name="cvc" id="cvc" class="input"/>
+        
+         <label for="cc-exp">Expiry Date:</label>
+           <input type="date" name="cc-exp" id="cc-exp" class="input"/>
+
+     </form>
     </div>
   </body>
 </html>
